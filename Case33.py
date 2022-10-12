@@ -1,5 +1,4 @@
 import streamlit as st
-from streamlit_folium import st_folium
 import folium
 
 map = folium.Map(location = [52.2129919, 5.2793703], zoom_start=7, tiles=None)
